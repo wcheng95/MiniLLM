@@ -42,29 +42,29 @@ python -m mini_llm.sample_ft8_big
 This produces plausible FT8-style traffic — CQ calls, signal reports, RR73, etc.
 
 🎯 5. Extract a QSO Flow
-To extract a structured 5-stage FT8 exchange from generated text:
-python -m mini_llm.qso_ft8_big
-Example output (your results will vary):
-============== RAW GENERATED TEXT ==============
-CQ AG6AQ CM97
-K7TCH AG6AQ -02
-AG6AQ KF0X R-09
-AG6AQ KC5SM RR73
-KI5CVU N5VAN 73
-...
-============== EXTRACTED QSO ================
-[CQ]       CQ AG6AQ CM97
-[REPLY]    K7TCH AG6AQ -2
-[R-REPORT] AG6AQ KF0X R-09
-[RR73]     AG6AQ KC5SM RR73
-[73]       KI5CVU N5VAN 73
-Because of its small scale, this mini-LLM has difficulty generating fully authentic FT8 messages, but it captures the core structure well. You can fine-tune or extend it if you're interested.
+To extract a structured 5-stage FT8 exchange from generated text:  
+python -m mini_llm.qso_ft8_big  
+Example output (your results will vary):  
+============== RAW GENERATED TEXT ==============  
+CQ AG6AQ CM97  
+K7TCH AG6AQ -02  
+AG6AQ KF0X R-09  
+AG6AQ KC5SM RR73  
+KI5CVU N5VAN 73  
+...  
+============== EXTRACTED QSO ================  
+[CQ]       CQ AG6AQ CM97  
+[REPLY]    K7TCH AG6AQ -2  
+[R-REPORT] AG6AQ KF0X R-09  
+[RR73]     AG6AQ KC5SM RR73  
+[73]       KI5CVU N5VAN 73  
+Because of its small scale, this mini-LLM has difficulty generating fully authentic FT8 messages, but it captures the core structure well. You can fine-tune or extend it if you're interested.  
 
-🙋 Need Help?
-MiniLLM is intentionally simple.
+🙋 Need Help?  
+MiniLLM is intentionally simple.  
 
-If you have any questions — training, dataset preparation, code behavior, FT8 logic, or customizing the model:
+If you have any questions — training, dataset preparation, code behavior, FT8 logic, or customizing the model:  
 
-👉 Ask ChatGPT directly — all MiniLLM files are readable and ChatGPT-compatible.
+👉 Ask ChatGPT directly — all MiniLLM files are readable and ChatGPT-compatible.  
 
 Enjoy experimenting with your tiny FT8 transformer!
