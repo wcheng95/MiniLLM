@@ -54,7 +54,7 @@ KI5CVU N5VAN 73
 [R-REPORT] AG6AQ KF0X R-09  
 [RR73]     AG6AQ KC5SM RR73  
 [73]       KI5CVU N5VAN 73  
-Because of its small scale, this mini-LLM has difficulty generating fully authentic FT8 messages, but it captures the core structure well. You can fine-tune or extend it if you're interested.  
+Because of its small scale and low quality training data(lack of actual QSO), this mini-LLM has difficulty generating fully authentic FT8 messages, but it captures the core structure well. You can fine-tune or extend it if you're interested.  
 
 🙋 Need Help?  
 MiniLLM is intentionally simple.  
